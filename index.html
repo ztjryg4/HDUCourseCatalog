@@ -168,7 +168,7 @@
                     </div>
                     <div class="modal-footer">
                       <span class="text-muted" >
-                        <span>© 2019 <a href="http://imztj.cn" target="_blank">ZhangTianjie</a></span>
+                        <span>© 2019 <a href="http://imztj.cn" target="_blank">章天杰</a></span>
                         <span> · <a href="https://github.com/ztjryg4/HDUCourseCatalog" target="_blank">GitHub</a></span>
                       </span>
                       <button type="button" class="btn btn-secondary" data-dismiss="modal">关闭</button>
@@ -411,6 +411,7 @@
    
       function initTable_like() {
         $liketable.bootstrapTable('destroy').bootstrapTable({
+          exportTypes : ['csv', 'txt', 'doc', 'excel'],
           classes: 'table table-bordered table-hover table-sm',
           locale: 'zh-CN',
           columns:[[
