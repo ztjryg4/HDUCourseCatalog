@@ -17,8 +17,8 @@ col9 上课地点 ele[10]
 col10 开课学院 ele[8]
 col11 合班信息 ele[11]
 '''
-inputfile = './asserts/csv/2019-2020-2.csv'
-outputfile = './asserts/csv/2019-2020-2-processed.csv'
+inputfile = './data/csv/2019-2020-2_split.csv'
+outputfile = './data/csv/2019-2020-2-processed.csv'
 
 fp = open(inputfile, 'r', encoding='utf-8')
 lines = fp.readlines()

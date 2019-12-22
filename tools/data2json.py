@@ -1,8 +1,8 @@
 import json
 import csv
 
-inputfile = './asserts/csv/2019-2020-2-processed.csv'
-outputfile = './asserts/data/2019-2020-2.json'
+inputfile = './data/csv/2019-2020-2-processed.csv'
+outputfile = './data/json/2019-2020-2_split.json'
 
 fp = open(inputfile, 'r', encoding='utf-8')
 lines = fp.readlines()

@@ -1,2 +1,2 @@
 # HDUCourseCatalog
- 比教务处课程网站更好用。Better to use than the official course catalog website.
+ 或许比正方教务系统课程目录页更好用。Maybe better to use than the official course catalog website.
